@@ -1,0 +1,71 @@
+.container-div-todo {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-top {
+    border: solid 1px;
+    border-radius: 20px;
+    width: 96%;
+    margin-top: 10px;
+}
+
+.container-center {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to left, rgb(14, 7, 19), rgb(7, 13, 43));
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.editInput {
+    background-color: transparent;
+    border: solid 1px;
+    height: 30px;
+    width: 90%;
+    background: linear-gradient(to left, rgb(49, 21, 68), rgb(20, 30, 81));
+    border-radius: 20px;
+
+}
+
+.container-edit-div {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.Input-Div {
+    flex: 11;
+}
+
+.Todo-Div {
+    flex: 11;
+}
+
+.iconDiv {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 20%;
+}

@@ -1,0 +1,17 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "React çalış"
+    },
+    {
+      "id": "2",
+      "text": "Redux Toolkit öğren"
+    },
+    {
+      "id": "1773488300475",
+      "text": "sdfs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

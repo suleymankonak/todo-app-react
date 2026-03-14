@@ -1,0 +1,70 @@
+.main-container-div {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.container-div {
+    width: 70%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(25, 5, 40), rgb(9, 22, 95));
+    margin-top: 100px;
+    padding: 0;
+    border-radius: 20px;
+
+}
+
+.h1-div {
+
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(1, 1, 2) 35%, rgb(55, 21, 68) 100%);
+    color: rgb(193, 186, 186);
+}
+
+.todo-Add-Input {
+    width: 70%;
+    margin-left: 20px;
+    height: 50px;
+    background: linear-gradient(90deg, rgb(93, 90, 156) 0%, rgb(7, 7, 36) 35%, rgb(24, 85, 97) 100%);
+    border-radius: 10px;
+    font-size: large;
+    padding-left: 10px;
+    color: white;
+    border: 0px;
+}
+
+.todo-Add-Button {
+    background: linear-gradient(to right, rgb(13, 13, 47), rgb(20, 16, 70), rgb(41, 14, 46));
+    color: white;
+    width: 40%;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.button-div {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.input-div {
+    justify-content: start;
+
+    width: 100%;
+    margin-top: 20px;
+}
